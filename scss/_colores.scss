@@ -1,0 +1,22 @@
+
+$colorP:#232323;
+$colorS:#323131;
+$colorT:#5f5f5f;
+$colorW:#fff;
+$colorF:#dee2e6;
+
+body{
+    background: $colorF;
+}
+
+.btn-primary{
+    color: $colorW;
+    background-color:$colorP;
+    border-color:$colorS;
+}
+
+.btn-primary:hover{
+    background-color:$colorT;
+}
+
+
