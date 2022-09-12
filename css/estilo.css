@@ -1,14 +1,6 @@
 body {
   background: #dee2e6; }
 
-.btn-primary {
-  color: #fff;
-  background-color: #232323;
-  border-color: #323131; }
-
-.btn-primary:hover {
-  background-color: #5f5f5f; }
-
 nav div a img {
   height: 4rem; }
 
