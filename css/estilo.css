@@ -17,3 +17,10 @@ nav div a img {
 
 .centrarIMG {
   height: 4rem; }
+
+p {
+  color: #252525;
+  font-size: 20px; }
+
+.txt {
+  text-align: center; }

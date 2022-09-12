@@ -1,0 +1,18 @@
+$estilo:(
+    color: #252525,
+    centro: center,
+    fuentesTxT: 20px,
+);
+
+p{
+    color:map-get($estilo, color);
+    font-size: map-get($estilo, fuentesTxT);
+}
+
+.txt{
+    border:map-get($estilo, bordes);
+    text-align: map-get($estilo, centro);
+}
+
+
+
