@@ -1,0 +1,28 @@
+.bot{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    color: #232323;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.decli{
+    @extend .bot;
+    color:#fff;
+    background-color: #323131;
+}
+.decli:hover{
+    background-color: #7a1b1b;
+}
+
+.acept{
+    @extend .bot;
+    color:#fff;
+    background-color: #323131;
+}
+.acept:hover{
+    background-color: #004d00bf;
+}
+
+

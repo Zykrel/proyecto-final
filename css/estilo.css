@@ -24,3 +24,25 @@ p {
 
 .txt {
   text-align: center; }
+
+.bot, .decli, .acept {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  color: #232323;
+  border: 1px solid;
+  border-radius: 20px; }
+
+.decli {
+  color: #fff;
+  background-color: #323131; }
+
+.decli:hover {
+  background-color: #7a1b1b; }
+
+.acept {
+  color: #fff;
+  background-color: #323131; }
+
+.acept:hover {
+  background-color: #004d00bf; }
