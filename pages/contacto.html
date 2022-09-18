@@ -35,27 +35,68 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main class="container mb-3">
         <div class="row my-2">
             <div class="col-12">
                 <h1 class="h1 text-center">Nuestras Redes Sociales</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-12 mb-3">
+            <div class="col-lg-3 col-12 mb-3 offset-lg-1">
                 <a href="https://www.instagram.com/sres.del.placard/" target="_blank"><img
                         src="../assets/img/insta-sres.png" class="img-fluid"></a>
             </div>
-            <div class="col-lg-4 col-12"> <a href="https://www.facebook.com/senoresdel.placar"
-                    target="_blank"><img src="../assets/img/capturaFace.png" class="img-fluid"></a></div>
-            <div class="col-lg-4 col-12"> <a href="https://www.facebook.com/senoresdel.placar"
-                    target="_blank"><img src="../assets/img/capturaW.png" class="img-fluid"></a></div>
+            <div class="col-lg-3 col-12"> <a href="https://www.facebook.com/senoresdel.placar" target="_blank"><img
+                        src="../assets/img/capturaFace.png" class="img-fluid"></a></div>
+            <div class="col-lg-3 col-12"> <a href="https://www.facebook.com/senoresdel.placar" target="_blank"><img
+                        src="../assets/img/capturaW.png" class="img-fluid"></a></div>
         </div>
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h3>Te invitamos a seguirnos en nuestras diversas redes sociales donde nuestros vendedores te aguardan.
-                </h3>
+                <h4>Te invitamos a seguirnos en nuestras diversas redes sociales, donde nuestros vendedores te aguardan.
+                </h4>
             </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 mb-2">
+                <div class="col-12">
+                    <h2 class="h2 text-center">Dejanos tu idea y nos comunicaremos con vos</h2>
+                </div>
+            </div>
+            <form>
+                <div class="row mb-3">
+                    <label for="nombre" class="col-sm-2 col-form-label">Nombre*</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="email" class="col-sm-2 col-form-label">Email*</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="telefono" class="col-sm-2 col-form-label">Telefono</label>
+                    <div class="col-sm-10">
+                        <input type="tel" pattern="[0-9]" class="form-control" id="telefono">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="idea" class="col-sm-2 col-form-label">Dejanos tu idea*</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" placeholder="Me gustaria un placard de la siguiente forma..." id="idea"
+                            style="height: 100px" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-around">
+                        <button type="reset" class="decli">Reset</button>
+                        <button type="submit" class="acept">Enviar</button>
+                    </div>
+                </div>
+
+            </form>
         </div>
     </main>
 
