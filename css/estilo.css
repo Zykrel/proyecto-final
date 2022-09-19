@@ -46,3 +46,31 @@ p {
   .cards:hover {
     box-shadow: 5px 6px 6px 2px #e9ecef;
     transform: scale(1.1); } }
+
+@media only screen and (min-width: 768px) {
+  .gridArea {
+    display: grid;
+    grid-template-areas: "destacado1" "destacado2" "destacado3";
+    grid-template-columns: 100%;
+    margin: 20px;
+    grid-template-rows: auto auto auto; } }
+
+@media only screen and (min-width: 1024px) {
+  .gridArea {
+    display: grid;
+    grid-template-areas: "destacado1 destacado2 destacado3";
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    grid-template-rows: auto auto auto; } }
+
+.destacado1 {
+  grid-area: destacado1;
+  padding: 10px; }
+
+.destacado2 {
+  grid-area: destacado2;
+  padding: 10px; }
+
+.destacado3 {
+  grid-area: destacado3;
+  padding: 10px; }
